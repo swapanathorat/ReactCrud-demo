@@ -1,0 +1,17 @@
+run the below command in package manamger console 
+
+npm install --save-dev @types/react @types/react-dom
+
+npm install react-aad-msal msal --save  -- For Authentication
+
+Used App.js instead react router
+
+In tscongig file added "noImplicitAny": false"
+
+npm --prefix /ClientApp i react@16.11.0
+
+reference Articles:
+1. https://dzone.com/articles/aspnet-core-crud-with-reactjs-and-entity-framework
+2. https://ahsanshares.wordpress.com/2019/10/14/react-azure-ad-authentication/
+
+Step that is missed during app registration in Azure AD
